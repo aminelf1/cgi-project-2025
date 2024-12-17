@@ -1,0 +1,27 @@
+{
+  "name": "cgi-project-2025",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --port 8080"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babylonjs/core": "^7.35.0",
+    "@babylonjs/inspector": "^7.35.0",
+    "babylonjs": "^7.40.3",
+    "babylonjs-loaders": "^7.37.0",
+    "html-webpack-plugin": "^5.6.3",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.7.2",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  },
+  "dependencies": {
+    "tsc": "^2.0.4"
+  }
+}
